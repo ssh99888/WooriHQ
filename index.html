@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Woori HQ</title>
+    <style>
+      :root { font-family: Arial, "Noto Sans KR", sans-serif; color: #172033; background: #f4f7fb; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; }
+      main { width: min(720px, 100%); }
+      h1 { margin: 0 0 10px; font-size: 30px; }
+      p { margin: 0 0 26px; color: #5c667a; }
+      .links { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+      a { display: block; padding: 28px; border: 1px solid #dbe2ee; border-radius: 16px; color: inherit; background: white; box-shadow: 0 10px 30px rgba(25, 49, 89, .08); text-decoration: none; }
+      a:hover { border-color: #4677da; transform: translateY(-2px); }
+      strong { display: block; margin-bottom: 8px; font-size: 20px; }
+      span { color: #657086; font-size: 14px; }
+      @media (max-width: 560px) { .links { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Woori HQ</h1>
+      <p>확인할 시스템을 선택해 주세요.</p>
+      <div class="links">
+        <a href="./qms/"><strong>품질검사</strong><span>검사성적서 및 품질관리 화면</span></a>
+        <a href="./pdm/"><strong>PdM</strong><span>설비 예지보전 및 상세분석 화면</span></a>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+[
+  {
+    "model": "HN-204A",
+    "name": "하우징 HN-204A",
+    "faces": [
+      {
+        "key": "front",
+        "title": "정면",
+        "drawing": "/images/HN-204A/front.png",
+        "standard": [
+          { "항목": "거리", "기준": "204.0 ±0.3", "방법": "캘리퍼스", "AQL": "4.0%" },
+          { "항목": "내경", "기준": "Ø16.0 ±0.3", "방법": "3차원", "AQL": "4.0%" }
+        ],
+        "result": [
+          { "항목": "거리", "S/N": [204.06, 204.04] },
+          { "항목": "내경", "S/N": [16.03, 16.04] }
+        ]
+      },
+      {
+        "key": "back",
+        "title": "후면",
+        "drawing": "/images/HN-204A/back.png",
+        "standard": [],
+        "result": []
+      },
+      { "key": "left",  "title": "좌측",  "drawing": "/images/HN-204A/left.png",  "standard": [], "result": [] },
+      { "key": "right", "title": "우측",  "drawing": "/images/HN-204A/right.png", "standard": [], "result": [] },
+      { "key": "top",   "title": "상면",  "drawing": "/images/HN-204A/top.png",   "standard": [], "result": [] },
+      { "key": "bottom","title": "하면",  "drawing": "/images/HN-204A/bottom.png","standard": [], "result": [] }
+    ]
+  },
+  {
+    "model": "HN-204B",
+    "name": "하우징 HN-204B",
+    "faces": [ ]
+  }
+]
